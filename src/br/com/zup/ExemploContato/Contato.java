@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.ExemploContato;
 
 public class Contato {
 

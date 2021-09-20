@@ -1,6 +1,4 @@
-package br.com.zup;
-
-import br.com.zup.Contato;
+package br.com.zup.ExemploContato;
 
 import java.util.Scanner;
 
