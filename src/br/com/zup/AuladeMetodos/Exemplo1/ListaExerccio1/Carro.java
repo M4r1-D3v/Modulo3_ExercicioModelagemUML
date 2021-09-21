@@ -14,7 +14,7 @@ public class Carro {
     String fabricante;
     String cor;
     double valor;
-    String novaCor ="";
+    String novaCor = "";
     double desconto = 0;
     double valorDesconto;
     String escolhaCor = "";
@@ -28,29 +28,29 @@ public class Carro {
         this.valor = valor;
 
 
-        }
-            public void darDesconto (double desconto){
-            valorDesconto = valor - desconto;
-        }
-
-            public void pintar (String novaCor){
-            escolhaCor = novaCor;
-        }
-        public void mostrarDados () {
-            System.out.println("O nome do veículo é: " + nome);
-            System.out.println("O peso do veículo é: " + peso + " kg");
-            System.out.println("O fabricante do veículo é: " + fabricante);
-            System.out.println("A cor original do veículo é: " + cor);
-            System.out.println("O valor original do veículo é: " + " R$ " + valor);
-            System.out.println("--------------------------");
-            System.out.println("O valor do veículo com desconto é: " + "R$" + valorDesconto);
-            System.out.println("A nova cor escolhida para o veículo será: " + escolhaCor);
-            System.out.println("----------------------");
-        }
-
-
-
     }
+
+    public void darDesconto(double desconto) {
+        valorDesconto = valor - desconto;
+    }
+
+    public void pintar(String novaCor) {
+        escolhaCor = novaCor;
+    }
+
+    public void mostrarDados() {
+        System.out.println("O nome do veículo é: " + nome);
+        System.out.println("O peso do veículo é: " + peso + " kg");
+        System.out.println("O fabricante do veículo é: " + fabricante);
+        System.out.println("A cor original do veículo é: " + cor);
+        System.out.println("O valor original do veículo é: " + " R$ " + valor);
+        System.out.println("--------------------------");
+        System.out.println("O valor do veículo com desconto é: " + "R$" + valorDesconto);
+        System.out.println("A nova cor escolhida para o veículo será: " + escolhaCor);
+        System.out.println("----------------------");
+    }
+
+}
 
 
 
