@@ -7,7 +7,7 @@ valor da fatura.*/
 
 public class CartaoCredito {
     double limite;
-    double saldo;
+    double saldo=0;
     String nomeCliente;
     double maisLimite;
     double menosLimite;
@@ -33,12 +33,11 @@ public class CartaoCredito {
             System.out.println("Limite excedido.");
         } else {
             limite = limite - valorCompras;
+            saldo = saldo + valorCompras;
         }
     }
 
-    public double saldoDaFatura(double valorCompras) {
-        saldo = saldo + valorCompras;
-        return saldo;
-
+    public void imprimeFatura() {
+        System.out.println("O valor total a ser pago desta fatura é: " + saldo);
     }
 }

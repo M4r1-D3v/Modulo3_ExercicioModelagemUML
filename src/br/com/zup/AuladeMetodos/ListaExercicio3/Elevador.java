@@ -44,6 +44,12 @@ public class Elevador {
                 pessoasNoElevador = saldoPessoas;
             }
         }
+        public void sobe(){
+
+        }
+        public void desce(){
+
+        }
     }
 
 
