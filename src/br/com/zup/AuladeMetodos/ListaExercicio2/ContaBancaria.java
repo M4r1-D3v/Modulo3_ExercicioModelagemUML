@@ -1,4 +1,4 @@
-package br.com.zup.AuladeMetodos.Exemplo1.ListaExercicio2;
+package br.com.zup.AuladeMetodos.ListaExercicio2;
 
 /*2. Crie uma classe referente à uma conta bancária, que possui como atributos o seu
 número, saldo e o nome do correntista. Crie também o método saque() que serve
@@ -7,6 +7,9 @@ valor ao saldo e o método extrato() que serve para mostrar na tela o nome do
 correntista, o número da conta e o saldo. Crie um programa principal e demonstre a
 utilização dos métodos implementados. */
 
+//melhorias: salvar histórico de transações (saque/depósito) em uma array de StringS
+//EX. Saque: $50
+//Depósito: $100 (um por linha)
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class ContaBancaria {

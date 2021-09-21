@@ -1,4 +1,4 @@
-package br.com.zup.AuladeMetodos.Exemplo1;
+package br.com.zup.AuladeMetodos;
 
 public class Baleia {
     double tamanho;

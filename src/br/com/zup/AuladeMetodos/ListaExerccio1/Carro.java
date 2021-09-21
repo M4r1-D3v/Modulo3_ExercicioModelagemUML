@@ -1,4 +1,4 @@
-package br.com.zup.AuladeMetodos.Exemplo1.ListaExerccio1;
+package br.com.zup.AuladeMetodos.ListaExerccio1;
 
 /*
 Crie uma classe que represente um carro, que tenha como características o
@@ -45,8 +45,12 @@ public class Carro {
         System.out.println("A cor original do veículo é: " + cor);
         System.out.println("O valor original do veículo é: " + " R$ " + valor);
         System.out.println("--------------------------");
-        System.out.println("O valor do veículo com desconto é: " + "R$" + valorDesconto);
-        System.out.println("A nova cor escolhida para o veículo será: " + escolhaCor);
+        if (valorDesconto != 0) {
+            System.out.println("O valor do veículo com desconto é: " + "R$" + valorDesconto);
+        }
+        if (escolhaCor != "") {
+            System.out.println("A nova cor escolhida para o veículo será: " + escolhaCor);
+        }
         System.out.println("----------------------");
     }
 

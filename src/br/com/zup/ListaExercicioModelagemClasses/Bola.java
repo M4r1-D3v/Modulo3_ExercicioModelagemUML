@@ -4,7 +4,7 @@ public class Bola {
     String cor;
     String tipo;
     String tamanho;
-    double peso;
+    double peso = 0;
 
     public Bola(String cor, String tipo,String tamanho,double peso ){
         this.cor = cor;

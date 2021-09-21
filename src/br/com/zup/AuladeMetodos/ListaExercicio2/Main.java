@@ -1,4 +1,4 @@
-package br.com.zup.AuladeMetodos.Exemplo1.ListaExercicio2;
+package br.com.zup.AuladeMetodos.ListaExercicio2;
 
 public class Main {
     public static void main(String[] args) {
