@@ -35,5 +35,7 @@ public class Heroi {
     }
     public double exibirVida(){
         return  getVida();
+
+        //ou return this.vida;
     }
 }

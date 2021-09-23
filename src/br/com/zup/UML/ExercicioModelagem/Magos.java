@@ -12,9 +12,15 @@ public class Magos extends Heroi {
         return poderMagico;
         }
 
-        public double setPoderMagico(){
+        public void setPoderMagico(double poderMagico){
             this.poderMagico = poderMagico;
         }
+
+        public void double aplicarMagia(poderMagico){
+
+            return poderMagico;
+
+    }
 
 }
 
