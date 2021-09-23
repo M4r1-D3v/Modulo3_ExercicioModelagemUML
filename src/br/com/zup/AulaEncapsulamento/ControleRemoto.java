@@ -29,8 +29,10 @@ public class ControleRemoto {
     }
 
     public void trocarCanal(int novoCanal){
+
         tv.setCanal(novoCanal);
     }
+
     public void mostrarDados(){
         System.out.println("Canal: " + tv.getCanal());
         System.out.println("Volume: " + tv.getVolume());
